@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
+import { SectionsComponent } from './sections/sections.component';
 import { InputComponent } from './sections/input/input.component';
 import { UsuarioService } from './usuarios/usuario.service';
 import { HttpClientModule } from '@angular/common/http';
