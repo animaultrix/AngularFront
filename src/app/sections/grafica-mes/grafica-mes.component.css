@@ -1,3 +1,8 @@
 .alturaCard {
     height: 274px;
 }
+
+.FondoOscuro {
+    background-color: #161B25; 
+    color: #D1D4DC;
+}

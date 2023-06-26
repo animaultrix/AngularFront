@@ -1,3 +1,26 @@
 .alturaRegistro {
     height: 574px;
 }
+.FondoOscuro {
+    background-color: #161B25;
+    color: #D1D4DC; 
+}
+
+.FondoOscuro .table, 
+.FondoOscuro .table thead, 
+.FondoOscuro .table tbody, 
+.FondoOscuro .table tr, 
+.FondoOscuro .table td, 
+.FondoOscuro .table th {
+    background-color: inherit; 
+    color: inherit;    
+}
+.FondoOscuro .table tr {
+    border-bottom: 1px solid #2F323E; 
+}
+.gastos {
+    color: #EF5350;
+}
+.ingresos {
+    color: #26A69A;
+}
