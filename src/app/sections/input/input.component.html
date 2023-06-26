@@ -1,21 +1,20 @@
-<div class="container my-5">
-    <div class="row justify-content-center align-items-center g-2">
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <p>{{nombre}}</p>
-                    <form>
-                        <label for="name">Cantidad</label>
-                        <div>
-                            <input type="text" name="name" id="name">
-                        </div>
-                        <div class="p-3">
-                            <button type="button" class="btn btn-success ">Ingreso</button>
-                            <button type="button" class="btn btn-danger ">Gasto</button>
-                        </div>
-                    </form>
-                </div>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">{{nombre}}</h5>
+        <form class="p-3">
+            <label for="name" class="mb-1 ">Cantidad </label>
+            <div class=" ">
+                <input type="text" name="name" id="name" class="col-12">
             </div>
-        </div>
+            <label for="name" class=" mb-1">Concepto</label>
+            <div class="col-12">
+                <input type="text" name="name" id="name" class="col-12">
+            </div>
+            <br>
+            <div class="">
+                <button type="button" class="btn btn-success col-6 rounded-start">Ingreso</button>
+                <button type="button" class="btn btn-danger  col-6">Gasto</button>
+            </div>
+        </form>
     </div>
 </div>

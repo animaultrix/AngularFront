@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-sections',
-  templateUrl: './sections.component.html',
-  styleUrls: ['./sections.component.css']
+  templateUrl: './sections.component.html'
 })
 export class SectionsComponent {
 
