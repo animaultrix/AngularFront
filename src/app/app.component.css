@@ -2,3 +2,23 @@
 .fondo{
     background-color: #1E222D;
 }
+main {
+    /* Estos estilos se aplicarán en todos los tamaños de pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 729px) {
+    main {
+        /* En pantallas más pequeñas, puedes cambiar el min-height a 'auto'*/
+        min-height: auto;
+    }
+}
+
+@media (min-width: 730px) {
+    main {
+        /* En pantallas más grandes*/
+        min-height: 100vh;
+    }
+}

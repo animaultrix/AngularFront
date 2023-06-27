@@ -24,3 +24,10 @@
 .ingresos {
     color: #26A69A;
 }
+@media (max-width: 760px) {
+    .autoMargins {
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 24px;      
+    }
+}

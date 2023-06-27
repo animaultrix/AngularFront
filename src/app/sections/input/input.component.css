@@ -13,3 +13,16 @@
     color: #FFFFFF;
         
 }
+.fondoInput {
+    background-color: #D1D4DC !important;
+}
+
+@media (max-width: 760px) {
+    .autoMargins {
+        margin-top: 24px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}
+
+
