@@ -1,9 +1,9 @@
 .alturaRegistro {
-    height: 574px;
+    height: 52vh;
 }
 .FondoOscuro {
     background-color: #161B25;
-    color: #D1D4DC; 
+    color: #D1D4DC;
 }
 
 .FondoOscuro .table, 

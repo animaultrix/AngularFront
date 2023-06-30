@@ -1,5 +1,5 @@
-.alturaCard {
-    height: 274px;
+.alturaCard {    
+    height: 80vh;
 }
 
 .FondoOscuro {
@@ -11,7 +11,11 @@
     .autoMargins {
         margin-left: 12px;
         margin-right: 12px;
-        margin-bottom: 24px;      
+        margin-bottom: 24px;           
+    }
+    .alturaCard {    
+        height: 40vh;
     }
 }
+
     

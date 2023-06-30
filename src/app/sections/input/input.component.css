@@ -2,6 +2,7 @@
 .FondoOscuro {
     background-color: #161B25; 
     color: #D1D4DC; 
+    height: 26vh;
 }
 
 .gastos {
@@ -16,12 +17,17 @@
 .fondoInput {
     background-color: #D1D4DC !important;
 }
-
+@media (min-width: 761px) {
+    .autoMargins {
+        margin-bottom: 2vh;
+    }
+}
 @media (max-width: 760px) {
     .autoMargins {
         margin-top: 24px;
         margin-left: 12px;
         margin-right: 12px;
+        margin-bottom: 24px;
     }
 }
 
