@@ -17,6 +17,12 @@
 .fondoInput {
     background-color: #D1D4DC !important;
 }
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 @media (min-width: 761px) {
     .autoMargins {
         margin-bottom: 2vh;
