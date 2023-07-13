@@ -1,16 +1,15 @@
 <div class="card FondoOscuro autoMargins">
     <div class="card-body">
-        <form class="p-3">
+        <form class="p-3" [formGroup]="form">
             <label for="cantidad" class="mb-1 ">Cantidad </label>
             <div>
-                <input type="text" class="form-control fondoInput" placeholder="Cantidad" 
-                [(ngModel)]="saldo.cantidad" (keypress)="onKeyPressCantidad($event)" 
-                (input)="onInputCantidad($event)" (keyup)="onKeyUpCantidad($event)">
+                <input (keypress)="onKeyPressCantidad($event)" (blur)="onBlurCantidad()" formControlName="saldo" type="text" class="form-control fondoInput" placeholder="Cantidad">
+
 
             </div>
             <label for="concepto" class=" mb-1">Concepto</label>
             <div>
-                <input type="text" name="concepto" id="concepto" class="col-12 form-control fondoInput" [(ngModel)]="saldo.concepto">
+                <input type="text" name="concepto" id="concepto" class="col-12 form-control fondoInput" formControlName="concepto">
             </div>
             <br>
             <div class="">

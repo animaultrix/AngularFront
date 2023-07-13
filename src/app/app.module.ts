@@ -10,7 +10,7 @@ import { UsuarioService } from './services/usuario/usuario.service';
 import { HttpClientModule } from '@angular/common/http';
 import { RegisterComponent } from './sections/register/register.component';
 import { GraficaMesComponent } from './sections/grafica-mes/grafica-mes.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule 
   ],
   providers: [
     UsuarioService
