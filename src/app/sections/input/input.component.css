@@ -1,0 +1,40 @@
+
+.FondoOscuro {
+    background-color: #161B25; 
+    color: #D1D4DC; 
+    height: 26vh;
+}
+
+.gastos {
+    background-color: #EF5350;
+    color: #FFFFFF;
+}
+.ingresos {
+    background-color: #26A69A;
+    color: #FFFFFF;
+        
+}
+.fondoInput {
+    background-color: #D1D4DC !important;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (min-width: 761px) {
+    .autoMargins {
+        margin-bottom: 2vh;
+    }
+}
+@media (max-width: 760px) {
+    .autoMargins {
+        margin-top: 24px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 24px;
+    }
+}
+
+

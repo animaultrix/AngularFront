@@ -1,19 +1,20 @@
-<div class="card">
+<div class="card FondoOscuro autoMargins">
     <div class="card-body">
-        <h5 class="card-title">{{nombre}}</h5>
-        <form class="p-3">
-            <label for="name" class="mb-1 ">Cantidad </label>
-            <div class=" ">
-                <input type="text" name="name" id="name" class="col-12">
+        <form class="p-3" [formGroup]="form">
+            <label for="cantidad" class="mb-1 ">Cantidad </label>
+            <div>
+                <input (keypress)="onKeyPressCantidad($event)" (blur)="onBlurCantidad()" formControlName="saldo" type="text" class="form-control fondoInput" placeholder="Cantidad">
+
+
             </div>
-            <label for="name" class=" mb-1">Concepto</label>
-            <div class="col-12">
-                <input type="text" name="name" id="name" class="col-12">
+            <label for="concepto" class=" mb-1">Concepto</label>
+            <div>
+                <input type="text" name="concepto" id="concepto" class="col-12 form-control fondoInput" formControlName="concepto">
             </div>
             <br>
             <div class="">
-                <button type="button" class="btn btn-success col-6 rounded-start">Ingreso</button>
-                <button type="button" class="btn btn-danger  col-6">Gasto</button>
+                <button type="button" class="btn ingresos col-6 rounded-end-0" role="button" (click)="postIngreso()">Ingreso</button>
+                <button type="button" class="btn gastos  col-6 rounded-start-0" role="button" (click)="postGasto()">Gasto</button>
             </div>
         </form>
     </div>

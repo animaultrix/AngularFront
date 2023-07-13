@@ -10,6 +10,7 @@ import { UsuarioService } from './services/usuario/usuario.service';
 import { HttpClientModule } from '@angular/common/http';
 import { RegisterComponent } from './sections/register/register.component';
 import { GraficaMesComponent } from './sections/grafica-mes/grafica-mes.component';
+import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,11 +20,13 @@ import { GraficaMesComponent } from './sections/grafica-mes/grafica-mes.componen
     SectionsComponent,
     InputComponent,
     RegisterComponent,
-    GraficaMesComponent,
+    GraficaMesComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule 
   ],
   providers: [
     UsuarioService
